@@ -1,0 +1,25 @@
+{
+  "name": "autofleet-interview",
+  "version": "1.0.0",
+  "description": "API for Autofleet interview using Node.js and MVC pattern",
+  "main": "app.js", 
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test/**/*.test.js"
+  },
+  "keywords": ["nodejs", "interview", "api", "testing"],
+  "author": "Alon Gross",
+  "license": "ISC",
+    "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0"
+  }
+  
+}
